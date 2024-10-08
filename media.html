@@ -1,0 +1,44 @@
+<!DOCTYPE html> 
+<html> 
+<body> 
+<head>
+    <title>Bài tập Media</title>
+</head>
+<slot>1:Video</slot>
+<br>
+<video width="400" controls>
+  <source src="phim.mp4/phim.mp4" type="video/mp4">
+  <source src="phim.mp4/phim.mp4" type="video/ogg">
+  Your browser does not support HTML video.
+</video>
+<p>
+Video courtesy of 
+<br>
+<a href="https://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>.
+</p>
+<br>
+<slot>2:Ảnh</slot>
+<br>
+<img src="anh.jpg/anh.jpg">
+<br>
+<slot>3:Nhạc</slot>
+<br>
+<audio controls>
+    <source src="nhac.mp3/nhac.mp3">
+</audio>    
+<br>
+<slot>4:Bản đồ</slot>
+<br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3826.3240449058662!2d107.59014767491294!3d16.459121584278346!2m3!
+    1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3141a13f462a1445%3A0x1b70ba6cb49fb526!2sHue%20University%20of%20Sciences!5e0!3m2!1se
+    n!2sus!4v1727927037184!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="
+    no-referrer-when-downgrade"></iframe>
+<br>
+<slot>5:Link Youtube</slot>
+<br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/iFoLKvdqXk8?si=Mw49EhmgE6q1cuYd" title="YouTube video player" 
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy
+    ="strict-origin-when-cross-origin" allowfullscreen></iframe> <br>
+    <a href="test.html">quay lại</a> 
+</body> 
+</html>
